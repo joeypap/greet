@@ -20,4 +20,8 @@ export class myHello {
         console.log(`Hello ${this.name}`);
     }
 
-}
+};
+
+import * as mymodule from 'https://raw.githubusercontent.com/joeypap/greet/master/doit.js';
+
+
