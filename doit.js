@@ -10,3 +10,14 @@ export default () => {
 export const doStuff = () => {
         console.log('Doing stuff…');
 };
+
+export class myHello {
+    constructor(name) {
+        this.name = name;
+    }
+
+    sayHello() {
+        console.log(`Hello ${name}`);
+    }
+
+}
