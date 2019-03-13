@@ -17,7 +17,7 @@ export class myHello {
     }
 
     sayHello() {
-        console.log(`Hello ${name}`);
+        console.log(`Hello ${this.name}`);
     }
 
 }
